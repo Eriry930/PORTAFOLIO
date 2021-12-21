@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    
+}
+
+header{
+    width: auto;
+    height: auto;
+    background-color: #000000;
+    color: #D71BC1;
+
+}
+
+.brand{
+    
+    width: 10px;
+}
+.container div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1%;
+    
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-self: center;
+    
+    
+
+}
+
+.menu a{
+    color: #ec09ec;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 5px;
+    
+}
+
+.menu li{
+    list-style: none;
+}
+.menu a:hover{
+    background-color: blueviolet;
+    transition: ease-in 0.3s;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.uno{
+    padding: 10%;
+    background-image: url(./img/rombos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+      
+    
+}
+
+span{
+    color: #ffffff;
+    font-style: italic;
+    font-weight:bolder;
+    font-size: xx-large;
+}
+
+.dos{
+    background-image: url(./img/alas1-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+
+    
+}
+
+.tres{
+    background-image: url(./img/alas2-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+}
+
+#Enviar{
+    background-color: #6C0EC7;
+    color: #ffffff;
+    font-style: oblique;
+}
+
+.cuatro{
+    padding: 10%;
+    background-image: url(./img/rombos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-self: center;
+      
+      
+    
+}
+.red a{
+    list-style: none;
+    text-decoration: none;
+}
