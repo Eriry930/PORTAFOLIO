@@ -7,12 +7,30 @@
     
 }
 
+body{
+  overflow-x: hidden;
+}
+
+html{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 header{
     width: auto;
     height: auto;
     background-color: #000000;
     color: #D71BC1;
 
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+p{
+  line-height: 1.6;
 }
 
 .brand{
@@ -33,9 +51,14 @@ header{
     width: 100%;
     justify-content:space-between;
     align-self: center;
-    
-    
+    flex-direction: row;
+   
+  
+}
 
+#logotipo{
+  width: 500px;
+  height: auto;
 }
 
 .menu a{
@@ -48,7 +71,11 @@ header{
 
 .menu li{
     list-style: none;
+    display: flex;
+    flex-direction: row;
 }
+
+
 .menu a:hover{
     background-color: blueviolet;
     transition: ease-in 0.3s;
@@ -99,7 +126,7 @@ span{
 }
 
 .cuatro{
-    padding: 10%;
+    padding: 100%;
     background-image: url(./img/rombos.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,4 +141,7 @@ span{
 .red a{
     list-style: none;
     text-decoration: none;
+}
+.logomin{
+  width: auto;
 }
