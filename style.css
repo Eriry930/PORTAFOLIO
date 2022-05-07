@@ -1,147 +1,153 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,400&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: x-large;
-    
 }
 
-body{
-  overflow-x: hidden;
+body {
+    overflow-x: hidden;
 }
 
-html{
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-header{
+header {
     width: auto;
     height: auto;
     background-color: #000000;
     color: #D71BC1;
-
 }
 
-img{
-  max-width: 100%;
-  height: auto;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-p{
-  line-height: 1.6;
+p {
+    line-height: 1.6;
 }
 
-.brand{
-    
+.brand {
     width: 10px;
 }
-.container div{
+
+.container div {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: #000000;
     color: #ffffff;
     padding: 1%;
-    
 }
 
-.menu{
+.menu {
     display: flex;
     width: 100%;
-    justify-content:space-between;
+    justify-content: space-between;
     align-self: center;
     flex-direction: row;
-   
-  
 }
 
-#logotipo{
-  width: 500px;
-  height: auto;
+#logotipo {
+    width: 500px;
+    height: auto;
 }
 
-.menu a{
+.menu a {
     color: #ec09ec;
     text-decoration: none;
     padding: 2px;
     border-radius: 5px;
-    
 }
 
-.menu li{
+.menu li {
     list-style: none;
     display: flex;
     flex-direction: row;
 }
 
-
-.menu a:hover{
+.menu a:hover {
     background-color: blueviolet;
     transition: ease-in 0.3s;
-
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
 }
 
-.uno{
+.uno {
     padding: 10%;
     background-image: url(./img/rombos.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
-      
-    
 }
 
-span{
+span {
     color: #ffffff;
     font-style: italic;
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: xx-large;
 }
 
-.dos{
+.dos {
     background-image: url(./img/alas1-removebg-preview.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10%;
-
-    
 }
 
-.tres{
+.tres {
     background-image: url(./img/alas2-removebg-preview.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10%;
 }
 
-#Enviar{
+#Enviar {
     background-color: #6C0EC7;
     color: #ffffff;
     font-style: oblique;
 }
 
-.cuatro{
+.cuatro {
     padding: 100%;
     background-image: url(./img/rombos.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     width: 100%;
-    justify-content:space-between;
+    justify-content: space-between;
     align-self: center;
-      
-      
-    
 }
-.red a{
+
+form {
+    width: auto;
+    height: 30%;
+}
+
+footer {
+    color: #ffffff;
+    width: 98%;
+}
+
+.redes {
+    padding: 10%;
     list-style: none;
     text-decoration: none;
+    color: white;
 }
-.logomin{
-  width: auto;
+
+.logomin {
+    width: auto;
 }
+
+
+/*@media (min-width: 800px) {
+    form {
+        width: 900px;
+    }
+}*/
