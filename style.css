@@ -105,6 +105,8 @@ span {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #Enviar {
